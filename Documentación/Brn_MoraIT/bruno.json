@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Brn_MoraIT",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

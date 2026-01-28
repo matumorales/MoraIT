@@ -1,0 +1,24 @@
+meta {
+  name: Crea_mensaje
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/api/v1/mensajes/
+  body: json
+  auth: inherit
+}
+
+body:json {
+  { 
+    "nombre_apellido": "Ignacio",
+    "correo": "ignaciomorales@live.com.ar",
+    "msj": "Mensaje 1"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
